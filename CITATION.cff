@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Emergency Department Patient Volume Forecasting"
+message: "If you use this repository, please cite it using this metadata."
+type: software
+authors:
+  - family-names: "El Attaoui"
+    given-names: "Kaouthar"
+version: 1.0.0
+date-released: 2026-07-26
+license: MIT

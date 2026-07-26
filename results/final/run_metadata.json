@@ -1,0 +1,16 @@
+{
+  "random_state": 42,
+  "rows_raw_daily": 579,
+  "rows_model": 551,
+  "train_rows": 440,
+  "test_rows": 111,
+  "test_ratio": 0.2,
+  "feature_count": 40,
+  "best_model": "SARIMAX(1,0,1)x(1,0,1,7)",
+  "forecast_horizon": 30,
+  "excluded_model_families": [
+    "LSTM",
+    "Holt-Winters",
+    "ETS"
+  ]
+}
