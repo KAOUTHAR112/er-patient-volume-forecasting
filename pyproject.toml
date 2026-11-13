@@ -1,0 +1,13 @@
+[project]
+name = "er-patient-volume-forecasting"
+version = "1.0.0"
+description = "Forecast daily emergency-department patient volume with ARIMA, SARIMAX and classical machine learning."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+exclude = ["notebooks"]

@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Sensitive or local data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+Hospital ER_Data.csv
+*patient*.csv
+*Patient*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Generated runs
+results/latest/
+results/notebook_run/
+results/demo/
+figures/latest/*
+!figures/latest/.gitkeep
+figures/notebook_run/
+figures/demo/
+
+# Models and logs
+*.joblib
+*.pkl
+*.h5
+*.keras
+*.log
